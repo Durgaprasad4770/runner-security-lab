@@ -11,15 +11,15 @@ jobs:
  security-check:   
   runs-on: self-hosted
 
- steps:
-  - name: Security message  
-    run: echo Always use minimum permissions on self-hosted runners
+  steps:
+   - name: Security message  
+     run: echo Always use minimum permissions on self-hosted runners
 
-  - name: Check user
-    run: whoami
+   - name: Check user
+     run: whoami
 
-  - name: Check machine
-    run: hostname
+   - name: Check machine
+     run: hostname
 
-  - name: Check folder
-    run: cd
+   - name: Check folder
+     run: cd
