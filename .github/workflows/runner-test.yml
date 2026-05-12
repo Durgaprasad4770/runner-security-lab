@@ -1,11 +1,12 @@
 name: Runner Test on Windows
 
-
-on: workflow_dispatch:
+on: 
+ workflow_dispatch:
 
 jobs:
   test:
     runs-on: self-hosted
+    
     steps:
       - name: Print message
         run: echo Runner is working successfully
